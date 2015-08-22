@@ -21,6 +21,7 @@ gem 'typhoeus'
 
 gem 'd3-rails'
 
+gem 'underscore-rails'
 gem 'gmaps4rails'
 
 gem_group :development, :test do
