@@ -6,6 +6,7 @@ gem 'puma'
 gem 'kaminari'
 
 gem 'bootstrap-sass'
+gem 'bootswatch-rails'
 
 gem 'rails_admin'
 gem 'haml'
@@ -127,7 +128,9 @@ CODE
 
 file "app/assets/stylesheets/pages.scss", <<-CODE
 @import "bootstrap-sprockets";
+@import "bootswatch/flatly/variables";
 @import "bootstrap";
+@import "bootswatch/flatly/bootswatch";
 
 footer, .footer {
   margin-top: 50px;
