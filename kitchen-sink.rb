@@ -6,7 +6,6 @@ gem 'puma'
 gem 'kaminari'
 
 gem 'bootstrap-sass'
-gem 'bootstrap-kaminari-views'
 
 gem 'rails_admin'
 gem 'haml'
